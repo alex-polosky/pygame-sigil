@@ -1,0 +1,41 @@
+[Map]
+Name='Test'
+# Available types are:
+# normal; camera; camera-zoom
+Type='Camera'
+Background='./Data/background.png'
+TileSize=16,16 # Can be any size so long as it's square
+Size=6,24
+
+[Design]
+0 4 5 0 0 0 0 0 0 4 5 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 6 6 6 6 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 1 1 1 1 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+[Design-Config]
+0=None
+1='./Data/ground.png',0,0 # 0,0 is the position and is assumed
+2='./Data/lava.png'
+3='./Data/cloud.png'
+4='./Data/cloud-L.png',0,0
+5='./Data/cloud-L.png',0,1
+6='./Data/block.png'
+
+[Collision]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 1 1 1 1 4 4 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+[Collision-Config]
+0=None
+1='Platform'
+2='Block'
+3='Pickup'
+4='Kill'
+

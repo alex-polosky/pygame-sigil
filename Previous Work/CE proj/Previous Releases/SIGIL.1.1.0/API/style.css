@@ -1,0 +1,24 @@
+body {
+ background-color:#aaeebb;
+}
+
+table {
+ border: 1px solid black;
+ width: 100%;
+ text-align: center;
+}
+
+td {
+ padding: 6px;
+ border: 2px solid black;
+ text-align: center;
+}
+
+.logo {
+ background-color: #c2fc20;
+ width: 70px;
+}
+
+.links {
+ background-color: #6aee28;
+}

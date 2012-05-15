@@ -1,0 +1,17 @@
+Now here's an idea:
+Once I get the console working, here's what'll happen:
+1) press ctrl+tilde to bring up the console
+2) type in "godmode" 1; <- activates invincibility/unlimited whatever
+3) press ctrl+shift+alt+g
+4) Brings up a dialog, asking for password
+5) enter "supergodmode enabled"
+6) flashes "I Am A God" on the console, and brings up a mouse cursor
+7) press ctrl+tilde to put back the console
+8) All AI is now paused, and you can click on everything to change properties, or drag wherever you want
+
+When in SuperGodMode, you can bring up the console, and type the following commands:
+ - save: saves the map in it's current state
+ - load: loads the map in it's default state
+ - destroy: destroys the object you selected
+ - exit: exits SuperGodMode
+
